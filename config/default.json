@@ -1,3 +1,6 @@
 {
-  "mongoURI": "mongodb+srv://eddie123:eddie123@cluster0.kezxz.mongodb.net/?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://eddie123:eddie123@cluster0.kezxz.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "SeaAitchEyeYouDashEmEyeEnJee",
+  "githubClientId": "9759fc393935bb0ccaa5",
+  "githubSecret": "3a91f33a09f7200973fb0551685b9e3daf99da38"
 }
