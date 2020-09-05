@@ -44,7 +44,7 @@ router.post(
     // collect validation errors
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.json({ errors: errors.array() });
+      return res.status(400).json({ errors: errors.array() });
     }
     try {
       // destructure req.body, these are fields in the Profile model
